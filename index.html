@@ -1,32 +1,100 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#5865f2">
-<meta name="description" content="Verifique sua conta Discord para liberar o acesso ao servidor.">
-<title>Verificação • Alpha</title>
-<style>
-:root{color-scheme:dark;--bg:#111214;--panel:#1e1f22;--muted:#b5bac1;--blue:#5865f2;--line:#ffffff13}
-*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(ellipse at 50% 0, #5865f233, transparent 55%),var(--bg);color:#f2f3f5;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
-.card{width:min(100%,460px);padding:36px 30px;text-align:center;background:#1e1f22eF;border:1px solid var(--line);border-radius:24px;box-shadow:0 24px 80px #0006}
-.logo{margin:0 auto 22px;width:72px;height:72px;display:grid;place-items:center;border-radius:24px;background:linear-gradient(135deg,#7983ff,#5865f2);font-size:30px;font-weight:900;box-shadow:0 10px 35px #5865f244}
-.tag{display:inline-block;padding:6px 10px;border:1px solid #5865f255;border-radius:999px;color:#c9cdff;background:#5865f21a;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
-h1{margin:18px 0 10px;font-size:30px;letter-spacing:-.04em}p{margin:0;color:var(--muted);font-size:15px;line-height:1.7}
-.button{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:26px;padding:15px 18px;border-radius:12px;background:var(--blue);color:white;text-decoration:none;font-weight:800;transition:.18s}
-.button:hover{background:#4752c4;transform:translateY(-1px)}.foot{margin-top:22px;font-size:12px;color:#858b94}.icon{font-size:18px}
-@media(max-width:420px){.card{padding:30px 22px}h1{font-size:26px}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111214">
+  <title>Verificação Concluída</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #111214;
+      color: #f2f3f5;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 440px;
+      padding: 40px 30px;
+      text-align: center;
+      background: #1e1f22;
+      border: 1px solid #303136;
+      border-radius: 24px;
+      box-shadow: 0 20px 60px #0005;
+    }
+
+    .check {
+      width: 76px;
+      height: 76px;
+      margin: 0 auto 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: #23a55920;
+      border: 1px solid #23a55970;
+      color: #57f287;
+      font-size: 42px;
+    }
+
+    .label {
+      color: #57f287;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 16px 0 12px;
+      font-size: 30px;
+      letter-spacing: -1px;
+    }
+
+    p {
+      margin: 0;
+      color: #b5bac1;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid #ffffff12;
+      color: #858b94;
+      font-size: 12px;
+    }
+  </style>
 </head>
 <body>
-<main class="card">
-  <div class="logo" aria-hidden="true">A</div>
-  <span class="tag">Verificação oficial</span>
-  <h1>Confirme sua conta</h1>
-  <p>Conecte sua conta Discord para confirmar sua identidade e liberar o acesso ao servidor. Você será direcionado à página oficial do Discord para autorizar.</p>
-  <!-- Troque pelo endereço público da API/backend hospedado na Discloud. -->
-  <a class="button" href="https://SEU-SUBDOMINIO.discloud.app/login"><span class="icon">◈</span> Continuar com Discord</a>
-  <div class="foot">Nunca pediremos sua senha do Discord. A autorização ocorre em discord.com.</div>
-</main>
+  <main class="card">
+    <div class="check">✓</div>
+
+    <div class="label">Verificação concluída</div>
+
+    <h1>Você já foi verificado!</h1>
+
+    <p>
+      Sua conta foi verificada com sucesso.
+      Você já pode voltar ao Discord.
+    </p>
+
+    <div class="footer">
+      Você pode fechar esta página com segurança.
+    </div>
+  </main>
 </body>
 </html>
+```
